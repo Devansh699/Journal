@@ -1,0 +1,18 @@
+<build>
+  <plugins>
+    <plugin>
+      <groupId>com.intuit.karate</groupId>
+      <artifactId>karate-maven-plugin</artifactId>
+      <version>1.4.1</version> <!-- Match your version -->
+      <executions>
+        <execution>
+          <id>generate-report</id>
+          <phase>verify</phase>
+          <goals>
+            <goal>report</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
